@@ -23,7 +23,10 @@ function appendArticles(articles, main) {
           let div =document.createElement("div")
           
           let div2 =document.createElement("div")
-          div2.onclick
+          div2.onclick =(({title,description,image })=>{
+           window.location.href = "news.html"
+         // localStorage.setItem("news",(this.title))
+          })
 
           let titleof = document.createElement("h2")
           titleof.textContent =title

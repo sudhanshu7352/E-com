@@ -29,13 +29,17 @@
 <script type="module">
  import sidebar from "./components/sidebar.js"
  import { apiCall, appendArticles } from "./scripts/main.js"
+
+
+  // let search =document.getElementById("searchbox")
+  // search.addEventListener("keypress",searchpage)
    
    let side =document.getElementById("sidebar")
    let main =document.getElementById("main")
    side.innerHTML = sidebar()
  
 
-   let response = apiCall("https://gnews.io/api/v4/top-headlines?token=cdb5fa87cbd63659479fc735b3d55029&lang=en&country=in")
+   let response = apiCall("https://gnews.io/api/v4/top-headlines?token=693a14a16e1502cc9c2e8820473acc18&lang=en&country=in")
 
 
    response.then((res)=>{
@@ -46,4 +50,7 @@
     .catch((err)=>{
       console.log(err)
     })
+    function searchpage(el){
+      window.location.href ="search.html"
+    }
 </script>
