@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
   </head>
-
+     <link rel="stylesheet" href="./styles/main.css">
   <body>
     <div id="container">
       <div id="sidebar">
 
         <!--DO NOT CHANGE THIS ID's-->
-
+       
 
       </div>
 
@@ -25,3 +25,25 @@
   </body>
 
 </html>
+
+<script type="module">
+ import sidebar from "./components/sidebar.js"
+ import { apiCall, appendArticles } from "./scripts/main.js"
+   
+   let side =document.getElementById("sidebar")
+   let main =document.getElementById("main")
+   side.innerHTML = sidebar()
+ 
+
+   let response = apiCall("https://gnews.io/api/v4/top-headlines?token=cdb5fa87cbd63659479fc735b3d55029&lang=en&country=in")
+
+
+   response.then((res)=>{
+     let x= res.articles
+     console.log(res.articles)
+     appendArticles(x,main)
+   })
+    .catch((err)=>{
+      console.log(err)
+    })
+</script>
