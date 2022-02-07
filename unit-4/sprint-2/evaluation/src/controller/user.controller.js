@@ -8,3 +8,6 @@ const router =express.Router();
 router.post("",crudController(user).post);
 
 router.get("",crudController(user).get)
+
+
+module.exports =router
