@@ -21,7 +21,7 @@ router.post(
 );
 router.get("", async (req, res) => {
   try {
-    const user = await User.find().lean().exec();
+    const user = await User.find().populate({path:"post_id",select:["likes","comment_id"]}).lean().exec();
     return res.status(201).send(user);
   } catch (e) {
     res.status(500).send(err.message);
