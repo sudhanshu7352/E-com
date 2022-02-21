@@ -6,6 +6,17 @@ const userSchema = new mongoose.Schema({
     age :{type:Number,required:true},
     email :{type :String,required:true,unique:true},
     profileImages :[{type:String,required:true}],
+    post_id:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"post",
+        required :true,
+    },
+    comment_id:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"comment",
+        required :true,
+    },
+
 },{
     versionKey:false,
     timestamps:true,
