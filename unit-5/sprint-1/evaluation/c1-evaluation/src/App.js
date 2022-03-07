@@ -7,7 +7,7 @@ function App() {
   const [Pen, setPen] = useState(10);
   const [Notebook, setNoteBook] = useState(44);
   const [Inkpen, setInkpen] = useState(78);
-  const [total,setTotal] =useState(0)
+  // const [total,setTotal] =useState(0)
 
   function handleBook(value) {
     setBook(Book + value);
@@ -22,9 +22,9 @@ function App() {
     setInkpen(Inkpen + value);
 
   }
-  function totalOf(){
-       setTotal(Book+Pen+Notebook)
-  }
+  // function totalOf(){
+  //      setTotal(Book+Pen+Notebook+Inkpen)
+  // }
   return (
     <div className="App">
       <div className="items">
@@ -67,7 +67,7 @@ function App() {
         </button>
         <span className="totalInkpens">{Inkpen}</span>
       </div>
-      <div className="total">{total}</div>
+      <div className="total">{Book+Pen+Notebook+Inkpen}</div>
     </div>
   );
 }
