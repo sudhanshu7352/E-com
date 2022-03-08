@@ -8,7 +8,7 @@ export const GroceryInput =({addGroc})=>{
     return(
         <div>
             <input type="text" onChange={(e)=>{setName(e.target.value)}} />
-            <button onClick={()=>addGroc(name)}>add</button>
+            <button onClick={()=>addGroc(name)} >add</button>
 
         </div>
     )
