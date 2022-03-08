@@ -1,3 +1,24 @@
 {
-  "groceries":[]
+  "groceries": [
+    {
+      "title": "atta",
+      "purchase": false,
+      "id": 4
+    },
+    {
+      "title": "dal",
+      "purchase": false,
+      "id": 5
+    },
+    {
+      "title": "mustard oil",
+      "purchase": false,
+      "id": 6
+    },
+    {
+      "title": "mustard oil g fghgf h fj",
+      "purchase": false,
+      "id": 7
+    }
+  ]
 }

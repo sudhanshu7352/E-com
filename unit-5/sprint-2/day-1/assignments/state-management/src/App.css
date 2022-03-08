@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.add{
+  background-color: green;
+  color: azure;
+  border:2px solid green;
+
+}
+.del{
+  background-color: red;
+  color: white;
+  border: 0;
+  margin-left: 40px;
+}
+.groc{
+  border: solid 2px gray;
+  padding: 10px;
+  width: 200px;
+  margin: auto;
+  align-content:space-around;
+  margin-top: 20px;
+  font-family: cursive;
+}
+.but{
+  background: teal;
+  color: white;
+  margin-left: 12px;
+  border-radius: 20%;
+}
