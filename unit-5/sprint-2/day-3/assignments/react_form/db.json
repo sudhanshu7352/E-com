@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "names": "auf",
+      "age": "100",
+      "address": "abc colony, near paras nath garden",
+      "department": "finance",
+      "salary": "321342",
+      "married": true,
+      "id": 1
+    },
+    {
+      "names": "uho",
+      "age": "",
+      "address": "",
+      "department": "marketing",
+      "salary": "3333",
+      "married": false,
+      "id": 2
+    },
+    {
+      "names": "rahul",
+      "age": "55",
+      "address": "ad ds ",
+      "department": "purchase",
+      "salary": "246512",
+      "married": "",
+      "id": 3
+    },
+    {
+      "names": "alok",
+      "age": "23",
+      "address": "up",
+      "department": "finance",
+      "salary": "23544",
+      "married": true,
+      "id": 4
+    },
+    {
+      "names": "arun",
+      "age": "21",
+      "address": "jhgj",
+      "department": "finance",
+      "salary": "212",
+      "married": true,
+      "id": 5
+    },
+    {
+      "names": "dd",
+      "age": "100",
+      "address": "ad ds ",
+      "department": "finance",
+      "salary": "54347",
+      "married": true,
+      "id": 6
+    },
+    {
+      "names": "hello",
+      "age": "33333",
+      "address": "sfaf",
+      "department": "purchase",
+      "salary": "3242",
+      "married": "",
+      "id": 7
+    },
+    {
+      "names": "nea data",
+      "age": "33",
+      "address": "ad ds ",
+      "department": "purchase",
+      "salary": "34234",
+      "married": true,
+      "id": 8
+    },
+    {
+      "names": "kljhaslfd",
+      "age": "11111",
+      "address": "ad ds ",
+      "department": "purchase",
+      "salary": "33333333",
+      "married": true,
+      "id": 9
+    },
+    
+    {
+      "names": "auf",
+      "age": "44",
+      "address": "ad ds ",
+      "department": "purchase",
+      "salary": "444444444",
+      "married": "",
+      "id": 11
+    }
+  ]
+}
