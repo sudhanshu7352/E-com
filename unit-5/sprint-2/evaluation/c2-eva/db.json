@@ -1,0 +1,60 @@
+{
+  "houses": [
+    {
+      "name": "sssssss",
+      "ownerName": "safd ",
+      "address": "asd",
+      "areaCode": "41",
+      "rent": "516313",
+      "bachelor": "on",
+      "married": "on",
+      "image": "a",
+      "id": 1
+    },
+    {
+      "married": "on",
+      "bachelor": "on",
+      "id": 2
+    },
+    {
+      "name": "raju",
+      "ownerName": "ljsld",
+      "address": "sdfs ",
+      "areaCode": "33333",
+      "rent": "4444",
+      "bachelor": "on",
+      "image": "s4s",
+      "id": 3
+    },
+    {
+      "name": "ajkhks",
+      "ownerName": "asd",
+      "address": "asda",
+      "areaCode": "22222",
+      "rent": "22222",
+      "married": "on",
+      "image": "2222",
+      "id": 4
+    },
+    {
+      "married": "on",
+      "rent": "as",
+      "areaCode": "3223",
+      "address": "23",
+      "ownerName": "23",
+      "name": "23",
+      "image": "223",
+      "id": 5
+    },
+    {
+      "name": "b b",
+      "ownerName": " n ",
+      "address": "nbvm",
+      "areaCode": "nbn",
+      "rent": "bv n",
+      "bachelor": "on",
+      "image": "n mn",
+      "id": 6
+    }
+  ]
+}
