@@ -1,10 +1,11 @@
 import "./App.css";
-import { Routes } from "./Components/Routes";
+import { RoutesBox } from "./Components/Routes";
+import {Navbar} from "./Components/Navbar"
 
 function App() {
   return (
     <div className="App">
-      <Routes />
+      <RoutesBox />
     </div>
   );
 }

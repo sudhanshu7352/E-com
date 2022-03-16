@@ -14,6 +14,7 @@ export const HomePage = () => {
         {[].map((el) => {
           return <Link to={``}>{/* Show product image and name */}</Link>;
         })}
+        {/* <h1>kljdkl</h1> */}
       </div>
     </>
   );
