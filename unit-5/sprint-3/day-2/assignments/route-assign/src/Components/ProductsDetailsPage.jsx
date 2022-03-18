@@ -34,6 +34,7 @@ export const ProductsDetailsPage = () => {
                   <h5>Specifications : </h5>
                   <div style={{ width: "700px", paddingLeft: "30px" }}>
                     {/* Show Product specification here */}
+                    {e.specs}
                   </div>
                 </div>
                 </>

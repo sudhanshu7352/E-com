@@ -4,25 +4,31 @@
             "name"  : "SmartPhone",
             "price": 30,
             "id" : 0,
-            "img":"https://images.unsplash.com/photo-1585060544812-6b45742d762f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            "img":"https://images.unsplash.com/photo-1585060544812-6b45742d762f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "specs" : "2 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display  8MP Rear Camera | 5MP Front Camera 5000 mAh Battery  Octa-core Processor"
         },
         {
             "name"  : "Watch",
             "price" : 20,
             "id" : 1,
-            "img" : "https://media.istockphoto.com/photos/watchmaker-repair-mechanical-watches-gears-repair-watch-repair-picture-id1328828672?b=1&k=20&m=1328828672&s=170667a&w=0&h=Am3m9uUlzIpBUFQ5pOC_CsA3Db_ISdBLNFVuAoFa2tA="
+            "img" : "https://media.istockphoto.com/photos/watchmaker-repair-mechanical-watches-gears-repair-watch-repair-picture-id1328828672?b=1&k=20&m=1328828672&s=170667a&w=0&h=Am3m9uUlzIpBUFQ5pOC_CsA3Db_ISdBLNFVuAoFa2tA=",
+            "specs" :"Water Resistant , Analog-Digital ,Casual,G-Shock ( GWG-1000-1A1DR ), Sports Watch Type Wrist Watch"
+          
+            
         },
         {
             "name" : "Shirt",
             "price" : 50,
             "id" : 2,
-            "img" : "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2hpcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            "img" : "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2hpcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "specs" :"Fabric Pure Cotton Sleeve Full Sleeve Pattern Checkere Reversibl N ColoGrey"
         },
         {
             "name" : "Pants",
             "price" : 100,
             "id" : 3,
-            "img":"https://images.unsplash.com/photo-1590159983013-d4ff5fc71c1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHBhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            "img":"https://images.unsplash.com/photo-1590159983013-d4ff5fc71c1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHBhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "specs" :"Occasion Formal Color Black Pack of 1 Type Formal Trouser Suitable ForWestern Wear Alteration Require No Belt Loop Yes"
         }
     ]
 }

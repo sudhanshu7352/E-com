@@ -8,12 +8,13 @@ const links = [
 export const Navbar = () => {
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div style={{ display: "flex", justifyContent: "center" ,border :"2px solid skyblue" }}>
         {links.map((el) => {
           return (
             <Link key={el.to} style={{ padding: "10px" }} to={el.to}>
               {el.title}
             </Link>
+          
           );
         })}
       </div>
