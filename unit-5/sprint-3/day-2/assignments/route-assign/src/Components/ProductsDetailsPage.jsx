@@ -25,7 +25,7 @@ export const ProductsDetailsPage = () => {
         >
          {detail.map((e)=>(
              <>
-                <img src={""} alt="" />
+                <img src={e.img} alt="" />
                 <div className="productDetails" style={{ padding: "20px" }}>
                   <div>
                     <h2 className="productName">{e.name}</h2>
