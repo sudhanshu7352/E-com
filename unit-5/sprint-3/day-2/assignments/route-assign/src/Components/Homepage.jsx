@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export const HomePage = () => {
+  const [product,setProduct] =useState([])
   return (
     <>
       <div
