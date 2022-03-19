@@ -31,7 +31,7 @@ export const HomePage = () => {
              </div>
             }</Link>;
         })}
-        {/* <h1>kljdkl</h1> */}
+        
       </div>
     </>
   );
