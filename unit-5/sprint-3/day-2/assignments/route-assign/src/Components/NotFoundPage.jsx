@@ -1,7 +1,10 @@
+// import  {Preview}  from "././";
+
 export const NotFoundPage = () => {
     return (
       <div className="notfound">
-        <img src="Show 404 not found image or gif" alt="" />
+        <img src="https://kfg6bckb.media.zestyio.com/yalantis-interactive-404.gif" alt="" />
+        {/* <h1>jhsfdljh</h1> */}
       </div>
     );
   };
