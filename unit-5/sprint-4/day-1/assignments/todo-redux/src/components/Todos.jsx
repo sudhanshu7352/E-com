@@ -42,7 +42,7 @@ export const Todo = () => {
       <div className="smalldiv" >
           <h2>Todo List</h2>
         {todo.map((e) => (
-          <div to=""  style={{padding:"8px",border:"2px solid gray"}} key={e.id}><Link to=""> {e.title}</Link> 
+          <div  style={{padding:"8px",border:"2px solid gray"}} key={e.id}><Link to={`/todo/${e.id}`}> {e.title}</Link> 
            <button className="remove" onClick={()=>deleteTodo(e.id) }>Delete</button>
           </div>
         ))}

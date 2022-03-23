@@ -3,7 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import { Todo } from './components/Todos'
-
+import { TodoDetail } from './components/TodoDetail'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
      <Routes>
        <Route path="/"   element={<Todo />}  />
-       <Route path="/todo/:id" element={<todoDetail /> }  />
+       <Route path="/todo/:id" element={<TodoDetail /> }  />
 
      </Routes>
     </div>
