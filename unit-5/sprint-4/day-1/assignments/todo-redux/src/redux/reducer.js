@@ -1,7 +1,7 @@
 import { ADD_TODO } from "./action"
 
 const initState ={
-    TODO:[]
+    todo:[]
 }
 export const reducer =(store=initState,{type ,payload})=>{
 

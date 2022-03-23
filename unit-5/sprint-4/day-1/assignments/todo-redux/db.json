@@ -1,3 +1,14 @@
 {
-    "Todo":[]
+  "Todo": [
+    {
+      "title": "redux assign",
+      "status": false,
+      "id": 1
+    },
+    {
+      "title": "3o min walk",
+      "status": false,
+      "id": 2
+    }
+  ]
 }

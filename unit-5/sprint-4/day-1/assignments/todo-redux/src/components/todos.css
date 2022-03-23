@@ -1,0 +1,25 @@
+.maindiv{
+    display:flex;
+    margin:50px;
+    justify-content:space-between
+}
+.smalldiv{
+   padding:8px;
+   border:2px solid gray;
+   width:350px
+}
+.remove{
+    border: 0;
+    background-color: red;
+    color: rgb(240, 248, 255);
+    margin-left: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.add{
+    border: 0;
+    background-color: rgb(32, 123, 52);
+    color: rgb(240, 248, 255);
+    margin-left: 15px;
+    border-radius: 10px;
+}
