@@ -2,7 +2,7 @@
   "Todo": [
     {
       "title": "redux assign",
-      "status": false,
+      "status": true,
       "id": 1
     },
     {
