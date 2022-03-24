@@ -11,11 +11,7 @@
       "image": "a",
       "id": 1
     },
-    {
-      "married": "on",
-      "bachelor": "on",
-      "id": 2
-    },
+   
     {
       "name": "raju",
       "ownerName": "ljsld",
@@ -45,16 +41,7 @@
       "name": "23",
       "image": "223",
       "id": 5
-    },
-    {
-      "name": "b b",
-      "ownerName": " n ",
-      "address": "nbvm",
-      "areaCode": "nbn",
-      "rent": "bv n",
-      "bachelor": "on",
-      "image": "n mn",
-      "id": 6
     }
+    
   ]
 }
