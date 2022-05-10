@@ -1,0 +1,21 @@
+
+.el_container{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(3,30%);
+    gap: 50px;
+    width: 100%;
+}
+.el_container>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    line-height: 29px;
+    color: rgb(36, 49, 173);
+    /* border-radius: 5px; */
+}
+.el_container>div>img{
+    /* height: 330px; */
+    width: 50%;
+}

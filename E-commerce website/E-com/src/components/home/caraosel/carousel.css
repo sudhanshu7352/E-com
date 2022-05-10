@@ -16,18 +16,21 @@
   }
   .carousel__main {
     border-radius: 4px;
-    height: 250px;
+    height: 100%;
   }
-  .carousel>img{
+  /* .carousel>img{
     width: 100%;
     height: 250px;
-  }
+  } */
   img{
-    height: 290px;
-    width: 98%;
+    height: 100%;
+    width: 100%;
+    /* background-size: contain; */
   }
   .demo-item {
     height: 300px;
+    width: 100%;
+    /* background-size: cover; */
   }
   /* .carousel_text{
     width: 33%;

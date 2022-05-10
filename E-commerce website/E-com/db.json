@@ -1,9 +1,136 @@
 {
     "clothing":[
-
+        {
+            "image" : "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/445041/item/ingoods_30_445041.jpg?width=1008&impolicy=quality_75",
+            "category" : "MEN",
+            "size"  : "S-3XL",
+            "name" : "MEN Coach Jacket",
+            "desc" : "Exclusive Size Online Only,New Arrivals",
+            "price" : 3990,
+            "id" :101
+        },
+        {
+            "image"  : "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/446217/item/ingoods_00_446217.jpg?width=1008&impolicy=quality_75",
+            "category" : "MEN",
+            "size" : "S-XXL",
+          "name" : "MEN Long Sleeve Sweatshirt",
+          "desc" : "MEN Monochrome Mickey Long Sleeve Sweatshirt",
+          "price" : 1990,
+          "id" :102
+        },
+        {
+            "image"  : "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/448383/item/ingoods_65_448383.jpg?width=1008&impolicy=quality_75",
+            "category" : "MEN",
+            "size" : "S-3XL",
+          "name" : "MEN Collar Long Sleeve Shirt",
+          "desc" : "MEN Hickory Oversized Stand Collar Long Sleeve Shirt",
+          "price" : 490,
+          "id" :103
+        },
+        {
+            "image"  : "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/444586/item/ingoods_67_444586.jpg?width=1008&impolicy=quality_75",
+            "category" : "MEN",
+            "size"  : "28INCH-40INCH",
+          "name" : "MEN Regular Fit Straight Jeans",
+          "desc" : "Exclusive Size Online Only,Limited Store",
+          "price" : 2990,
+          "id":104
+        },
+        {
+            "image":
+              "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/445293/item/ingoods_64_445293.jpg?width=1008&impolicy=quality_75",
+        "category": "WOMEN",
+            "size": "S-3XL",
+            "name": " Denim Leggings Trousers",
+            "desc": "WOMEN Extra Stretch High Rise Denim Leggings Trousers",
+            "price": 990,
+            "id": 201
+           
+          },
+          {
+            "image":
+              "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/433604/item/ingoods_30_433604.jpg?width=1008&mpolicy=quality_75",
+        "category": "WOMEN",
+            "size": "XS-XXL",
+            "name": "WOMEN Rayon Long Sleeve Blouse",
+            "desc": "Exclusive Size Online Only",
+            "price": 1490,
+           "id": 202
+           
+          },
+        
+          {
+            "image":
+              "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/445292/item/ingoods_56_445292.jpg?width=1008&mpolicy=quality_75",
+        "category": "WOMEN",
+            "size": "S-3XL",
+            "name": "WOMEN  Denim Leggings Trousers",
+            "desc": "WOMEN Extra Stretch High Rise Denim Leggings Trousers",
+            "price": 1990,
+            "id": 203
+           
+          },
+          {
+            "image":
+              "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/445388/item/ingoods_12_445388.jpg?width=1008&mpolicy=quality_75",
+        "category": "WOMEN",
+            "size": "XS-XXL",
+            "name": "WOMEN Wirless Bra ",
+            "desc": "WOMEN Wirless Bra Active Square Neck",
+            "price": 2590,
+            "id": 204
+           
+          }
     ],
     "electronics" :[
-
+        {
+            "name":"Xiaomi 11i 5G (Purple Mist, 128 GB)  (6 GB RAM)",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/ky7lci80/mobile/e/j/x/-original-imagag2gatsxzcuv.jpeg?q=70",
+            "price" : "₹24,999",
+            "category" :"mobile",
+            "desc" :"6 GB RAM | 128 GB ROM | Expandable Upto 1 TB , 16.94 cm (6.67 inch) Full HD+ AMOLED Display  108MP Rear Camera | 16MP Front Camera",
+            "id" :301
+        },
+        {
+            "name":"realme GT Neo 3 (Sprint White, 128 GB)  (8 GB RAM)",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/l2hwwi80/mobile/n/x/p/-original-imagdttkn3x3ufhm.jpeg?q=70",
+            "price" : "₹34,999",
+            "category" :"mobile",
+            "desc" :"8 GB RAM | 128 GB ROM, 17.02 cm (6.7 inch) Full HD+ Display ,50MP + 8MP + 2MP | 16MP Front Camera",
+            "id" :302
+        },
+        {
+            "name":"APPLE iPhone 13 (Midnight, 128 GB)",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/f/c/g/iphone-13-mlpf3hn-a-apple-original-imag6vzzzfa5ndzm.jpeg?q=70",
+            "price" : "₹74,999",
+            "category" :"mobile",
+            "desc" :"128 GB ROM, 15.49 cm (6.1 inch) ,Super Retina XDR Display 12MP + 12MP | 12MP Front Camera",
+            "id" :303
+        },
+        {
+            "name":"HP Pavilion Ryzen 5 Hexa Core 5600H",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/kbqu4cw0/computer/q/x/r/hp-original-imaftyzachgrav8f.jpeg?q=70",
+            "price" : "₹54,999",
+            "category" :"laptop",
+            "desc" :"NVIDIA GeForce GTX 1650, 15.6 inch Full HD WLED-Backlit IPS Anti-glare Micro-edge Display (Brightness: 250 nits, 141 PPI, Color Gamut: 45% NTSC)",
+            "id" :401
+        },
+        {
+            "name":"lenovo Ideapad Flex 5 Core i5 11th Gen ",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/ku5ufm80/computer/a/x/a/na-2-in-1-laptop-lenovo-original-imag7cmytyfjazq4.jpeg?q=70",
+            "price" : "₹72,999",
+            "category" :"laptop",
+            "desc" :"Carry It Along 2 in 1 Laptop, 14 inch Full HD LED Backlit IPS Glossy Multi-touch Display (250 nits Brightness, 45% NTSC Color Gamut) Finger Print Sensor for Faster System Access",
+            "id" :402
+        },
+        {
+            "name":"ASUS TUF Gaming F15 (2021) Core i5 11th Gen",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/kpodocw0/computer/9/s/7/na-gaming-laptop-asus-original-imag3v4hsgz62qgw.jpeg?q=70",
+            "price" : "₹1,04,999",
+            "category" :"laptop",
+            "desc" :"15.6 Inch Full HD LED Backlit, Anti-Glare IPS, Adaptive-Sync Display (144Hz Refresh Rate, 250 nits Brightness, 1000:1 Contrast, 45% NTSC Color Gamut, 62.5% SRGB, 16:9 Aspect Ratio) Light Laptop without Optical Disk Drive",
+            "id" :403
+        }
     ],
     "appliances" :[
 

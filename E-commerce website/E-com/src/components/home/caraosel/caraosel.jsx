@@ -39,9 +39,7 @@ export const Caro =()=> {
         >
           {/* <div className="carousel_text"> */}
           <img src={image.src} />
-          {/* <h3>{image.text}</h3>
-          <p className="p_text" >{image.text2}</p> */}
-          {/* </div> */}
+          
         </div>
         
       ))}
