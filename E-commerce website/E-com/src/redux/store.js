@@ -5,7 +5,9 @@ import thunk from "redux-thunk";
 
 const reducer =combineReducers({
     cloth :Reducer,
-    electronics :Reducer
+    electronics :Reducer,
+    appliances :Reducer,
+    books:Reducer
 })
 
 export const store =createStore(

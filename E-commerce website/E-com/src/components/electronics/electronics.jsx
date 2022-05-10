@@ -16,6 +16,14 @@ export const Electronics =()=>{
        })
     },[])
     return(
+        <>
+        <div>
+            <select name="" id="priceSort">
+                <option value="">--sort by price--</option>
+                <option value="low">low to high</option>
+                <option value="high">high to low</option>
+            </select>
+        </div>
         <div className="el_container">
             {electronics.map((e)=>(
                 <div key={e.id}>
@@ -26,6 +34,7 @@ export const Electronics =()=>{
                 
             ))}
         </div>
+        </>
     )
       
     

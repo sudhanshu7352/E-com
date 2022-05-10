@@ -133,9 +133,235 @@
         }
     ],
     "appliances" :[
-
+        {
+            "name":"OnePlus U1S 164 cm (65 inch) Ultra HD (4K) LED Smart Android TV  (65UC1A00)",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/kuwzssw0/television/u/i/r/u-series-65-u1s-65uc1a00-oneplus-original-imag7xtnmnkyz7je.jpeg?q=70",
+            "price" : "63,999",
+            "category" :"Television",
+            "desc" :"Supported Apps: Netflix|Prime Video|Disney+Hotstar|Youtube Operating System: Android (Google Assistant & Chromecast in-built)  Resolution: Ultra HD (4K) 3840 x 2160 Pixels Sound Output: 30 W",
+            "id" :501
+        },
+        {
+            "name":"Mi 5X 138.8 cm (55 inch) Ultra HD (4K) LED Smart Android TV",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/ksoz53k0/television/f/y/6/l55m6-es-mi-original-imag67749wqtwgyp.jpeg?q=70",
+            "price" : "46,999",
+            "category" :"Television",
+            "desc" :"Supported Apps: Netflix|Prime Video|Disney+Hotstar|Youtube  Operating System: Android (Google Assistant & Chromecast in-built) Resolution: Ultra HD (4K) 3840 x 2160 Pixels",
+            "id" :502
+        },
+        {
+            "name":"IFB 6 kg 5 Star Aqua Energie, Laundry Add, Tub Clean, Fully Automatic Front ",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/krz97rk0/washing-machine-new/g/2/4/diva-aqua-vx-ifb-original-imag5ngqvnsgwxhy.jpeg?q=70",
+            "price" : "21,999",
+            "category" :"washing machine",
+            "desc" :"Fully Automatic Front Load Washing Machines have Great Wash Quality with very less running cost 800 rpm : Higher the spin speed, lower the drying time  Number of wash programs - 8 : With higher wash programs-Wash a variety of fabrics",
+            "id" :601
+        },
+        {
+            "name":"IFB 6 kg 5 Star Aqua Energie, Laundry Add, Tub Clean, Fully Automatic Front ",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/krz97rk0/washing-machine-new/g/2/4/diva-aqua-vx-ifb-original-imag5ngqvnsgwxhy.jpeg?q=70",
+            "price" : "21,999",
+            "category" :"washing machine",
+            "desc" :"Fully Automatic Front Load Washing Machines have Great Wash Quality with very less running cost 800 rpm : Higher the spin speed, lower the drying time  Number of wash programs - 8 : With higher wash programs-Wash a variety of fabrics",
+            "id" :602
+        },
+        {
+            "name":"BOSCH 7 kg Drive Motor, Anti Tangle, Anti Vibration Fully Automatic Front Load  ",
+            "image" :"https://rukminim1.flixcart.com/image/416/416/kkzrpu80/washing-machine-new/8/i/a/7-waj2416sin-bosch-original-imagy7rpzjhvvhdv.jpeg?q=70",
+            "price" : "31,990",
+            "category" :"washing machine",
+            "desc" :"Fully Automatic Front Load Washing Machines have Great Wash Quality with very less running cost 800 rpm : Higher the spin speed, lower the drying time  Number of wash programs - 8 : With higher wash programs-Wash a variety of fabrics",
+            "id" :603
+        },
+        {
+            "name":"LG 190 L Direct Cool Single Door 4 Star Refrigerator with Base Drawer",
+            "image" :"https://rukminim1.flixcart.com/image/312/312/kapoo7k0/refrigerator-new/r/4/p/gl-d201ascy-4-lg-original-imafs7n5ge729aah.jpeg?q=70",
+            "price" : "16,490",
+            "category" :"refrigerator",
+            "desc" :"Smart Inverter Compressor, 4 Star : For Energy savings up to 55%,  Toughened Glass Shelves,  190 L : Good for couples and small families,   Built-in Stabilizer, 2021 BEE Rating Year,  1 Year on Product and 10 Years on Compressor From LG",
+            "id" :701
+        },
+        {
+            "name":"LG 195 L Direct Cool Single Door 5 Star Refrigerator with Base Drawer with Smart Inverter Compressor  ",
+            "image" :"https://rukminim1.flixcart.com/image/312/312/ki6bgcw0/refrigerator-new/f/z/c/gl-d201abcz-5-lg-original-imafyf8kyrnfbj64.jpeg?q=70",
+            "price" : "15,990",
+            "category" :"refrigerator",
+            "desc" :"Smart Inverter Compressor, 5 Star : For Energy savings up to 55%,  Toughened Glass Shelves,  190 L : Good for couples and small families,   Built-in Stabilizer, 2021 BEE Rating Year,  1 Year on Product and 10 Years on Compressor From LG",
+            "id" :702
+        },
+        {
+            "name":"SAMSUNG 198 L Direct Cool Single Door 5 Star Refrigerator with Base Drawer",
+            "image" :"https://rukminim1.flixcart.com/image/312/312/klfhk7k0/refrigerator-new/a/k/9/rr23a2f3x9u-hl-4-2021-samsung-original-imagyk3kb7gspxsf.jpeg?q=70",
+            "price" : "18,490",
+            "category" :"refrigerator",
+            "desc" :"Smart Inverter Compressor, 4 Star : For Energy savings up to 55%,  Toughened Glass Shelves,  190 L : Good for couples and small families,   Built-in Stabilizer, 2021 BEE Rating Year,  1 Year on Product and 10 Years on Compressor From LG",
+            "id" :703
+        },
+        {
+            "name":"SAMSUNG 225 L Direct Cool Single Door 4 Star Refrigerator with Base Drawer with Digi Touch Cool, BSD",
+            "image" :"https://rukminim1.flixcart.com/image/312/312/k4ss2a80/refrigerator-new/j/w/v/rr21t2h2wcu-hl-5-samsung-original-imafnmkbyzev8szv.jpeg?q=70",
+            "price" : "20,990",
+            "category" :"refrigerator",
+            "desc" :"Smart Inverter Compressor, 5 Star : For Energy savings up to 55%,  Toughened Glass Shelves,  190 L : Good for couples and small families,   Built-in Stabilizer, 2021 BEE Rating Year,  1 Year on Product and 10 Years on Compressor From LG",
+            "id" :704
+        }
     ],
     "books":[
-        
+        {
+            "name":"the love songs",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcghhqDa3FSXr7LjMrczXDkX9_5Ut4Y6uWrA&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"Murphy Joseph",
+            "price": 2234,
+            "section": "mystery",
+            "isbnNumber": 1234567,
+            "id":1
+         },
+         {
+            "name":"The twelfth child",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg9eiPUd6cE7xP6r-o4FXy5zPMqLW1OlgoxA&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"Murphy Joseph",
+            "price": 999,
+            "section": "mystery",
+            "isbnNumber": 1234567,
+            "id":2
+         },
+         {
+            "name":"bermuda triangle",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ22I5aJUSoRNgsazfpPWBuZeVqL5D_r85KQ&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"secret corps",
+            "price": 6543,
+            "section": "mystery",
+            "isbnNumber": 1234567,
+            "id":3
+         },
+         {
+            "name":"walk the wire",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH94XDPMDdJJUuArmeF8a-apzIKcjz-IWHIg&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"Book Author",
+            "price": 5246,
+            "section": "technology",
+            "isbnNumber": 1234567,
+            "id":4
+         },
+         {
+            "name":"secret corps",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaGHlOfRRxlYhGJ6KHcKuNxYQMZhnyn9AUA&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"Sudha",
+            "price": 2000,
+            "section": "technology",
+            "isbnNumber": 1234567,
+            "id":5
+         },
+         {
+            "name":"unleaash the dragon",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3S-5Z0zwKCY6jKolW5naQojapyk68yHFGHw&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"secret corps",
+            "price": 3566,
+            "section": "technology",
+            "isbnNumber": 1234567,
+            "id":6
+         },
+         {
+            "name":"seven endless forests",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIBw75iUts6UaMCMbaBBOu4uR72HLjVoZC_g&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"Sudha",
+            "price": 1290,
+            "section": "mythology",
+            "isbnNumber": 1234567,
+            "id":7
+         },
+         {
+            "name":"It's Okay",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuFOOUUXDAH6Duoh3fEYlDLS9Obh5uVLxxYA&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"Jeff Keller",
+            "price": 1290,
+            "section": "mythology",
+            "isbnNumber": 1234567,
+            "id":8
+         },
+         {
+            "name":"secret corps",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaGHlOfRRxlYhGJ6KHcKuNxYQMZhnyn9AUA&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"Jeff Keller",
+            "price": 1200,
+            "section": "mythology",
+            "isbnNumber": 1234567,
+            "id":9
+         },
+         {
+            "name":"A Million to one",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsfxrcUtlaLqSTTpA7N9cWKIopvRNtXngM2A&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"Jeff Keller",
+            "price": 4500,
+            "section": "history",
+            "isbnNumber": 1234567,
+            "id":10
+         },
+         {
+            "name":"Attitude Is Everything ",
+            "image":"https://rukminim1.flixcart.com/image/416/416/khxqt8w0-0/book/x/o/v/attitude-is-everything-change-your-attitude-change-your-life-original-imafxtvesfbk8rje.jpeg?q=70",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"Jeff Keller",
+            "price": 790,
+            "section": "history",
+            "isbnNumber": 1234567,
+            "id":11
+         },
+         {
+            "name":"The Best",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_r311mAScLwmgZLluzUdtOzBFx0z2wBCDw&usqp=CAU",
+            "desc":"Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+            "reviews":[
+                "multiple reviews here"
+            ],
+            "author":"Sudha",
+            "price": 3299,
+            "section": "history",
+            "isbnNumber": 1234567,
+            "id":12
+         }
     ]
 }
