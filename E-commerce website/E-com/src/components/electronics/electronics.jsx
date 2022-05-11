@@ -3,11 +3,12 @@
 import axios from "axios"
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { getData, getElData } from "../../redux/action"
+import { getData, getElData, getElFilData } from "../../redux/action"
 import "./electronics.css"
 
 export const Electronics =()=>{
     const {electronics} =useSelector((store)=>store.electronics)
+    const filelectronics =useSelector((store)=>store.electronics.filelectronics)
     const dispatch =useDispatch()
     useEffect(()=>{
        axios.get(" http://localhost:8080/electronics").then((res)=>{
@@ -15,21 +16,41 @@ export const Electronics =()=>{
            dispatch(getElData(res.data))
        })
     },[])
+    const handleSort=(e)=>{
+        let {id,value} =e.target
+            if(id =="priceSort" && value =="low"){
+                electronics.sort((a,b)=>a.price.split(",").join("") -b.price.split(",").join(""))
+                dispatch(getElData(electronics))
+            }
+            if(id =="priceSort" && value =="high"){
+                electronics.sort((a,b)=>b.price.split(",").join("")  -a.price.split(",").join("") )
+                dispatch(getElData(electronics))
+            }
+            if(id =="filterCategory"){
+                //  console.log(value,"a")
+                  dispatch(getElFilData(value))
+              }
+    }
     return(
         <>
         <div>
-            <select name="" id="priceSort">
+            <select name="" id="priceSort" onChange={handleSort}>
                 <option value="">--sort by price--</option>
                 <option value="low">low to high</option>
                 <option value="high">high to low</option>
             </select>
+            <select name="" id="filterCategory" onChange={handleSort}>
+                <option value="">-- filter by category --</option>
+                <option value="mobile">filter by mobile</option>
+                <option value="laptop">filter by laptop</option>
+            </select>
         </div>
         <div className="el_container">
-            {electronics.map((e)=>(
+            {electronics&& filelectronics.map((e)=>(
                 <div key={e.id}>
                     <img src={e.image} />
                     <h3>{e.name}</h3>
-                    <h4> {e.price}</h4>
+                    <h4>₹ {e.price}.00</h4>
                 </div>
                 
             ))}

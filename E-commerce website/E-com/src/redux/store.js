@@ -14,3 +14,4 @@ export const store =createStore(
     reducer,
     applyMiddleware(thunk)
 )
+
