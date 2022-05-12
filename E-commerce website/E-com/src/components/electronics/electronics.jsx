@@ -3,6 +3,7 @@
 import axios from "axios"
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
+import { useNavigate } from "react-router-dom"
 import { getData, getElData, getElFilData } from "../../redux/action"
 import "./electronics.css"
 
@@ -10,6 +11,7 @@ export const Electronics =()=>{
     const {electronics} =useSelector((store)=>store.electronics)
     const filelectronics =useSelector((store)=>store.electronics.filelectronics)
     const dispatch =useDispatch()
+    const navigate =useNavigate()
     useEffect(()=>{
        axios.get(" http://localhost:8080/electronics").then((res)=>{
           // console.log(res.data)
@@ -47,7 +49,7 @@ export const Electronics =()=>{
         </div>
         <div className="el_container">
             {electronics&& filelectronics.map((e)=>(
-                <div key={e.id}>
+                <div key={e.id} onClick={()=>navigate(`/Electronics/product_details/${e.id}`)}>
                     <img src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>

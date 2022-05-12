@@ -1,20 +1,15 @@
 
-
-
-
-
-
-
-
 import axios from "axios"
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
+import { useNavigate } from "react-router-dom"
 import { getApData, getBookData, getBookFilData } from "../../redux/action"
 import "./books.css"
 
 export const Books =()=>{
     const {books} =useSelector((store)=>store.books)
     const filbooks =useSelector((store)=>store.books.filbooks)
+    const navigate =useNavigate()
     const dispatch =useDispatch()
     useEffect(()=>{
        axios.get(" http://localhost:8080/books").then((res)=>{
@@ -57,7 +52,7 @@ export const Books =()=>{
         </div>
         <div className="book_container">
             {books && filbooks.map((e)=>(
-                <div key={e.id}>
+                <div key={e.id} onClick={()=>navigate(`/Books/product_details/${e.id}`)}>
                     <img src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>

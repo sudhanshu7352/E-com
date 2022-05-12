@@ -1,6 +1,7 @@
 import axios from "axios"
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
+import { useNavigate } from "react-router-dom"
 import { getData, getfilData } from "../../redux/action"
 import "./clothing.css"
 
@@ -8,6 +9,7 @@ export const Clothing =()=>{
     const {cloth} =useSelector((store)=>store.cloth)
     const filcloth =useSelector((store)=>store.cloth.filcloth)
     const dispatch =useDispatch()
+    const navigate =useNavigate()
     useEffect(()=>{
        axios.get(" http://localhost:8080/clothing").then((res)=>{
          //  console.log(res.data)
@@ -48,7 +50,7 @@ export const Clothing =()=>{
         </div>
         <div className="container">
             {cloth && filcloth.map((e)=>(
-                <div key={e.id}>
+                <div key={e.id} onClick={()=>navigate(`/Cloth/product_details/${e.id}`)}>
                     <img src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>
