@@ -3,7 +3,7 @@ import axios from "axios"
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
-import { getApData, getBookData, getBookFilData } from "../../redux/action"
+import { cartData, getApData, getBookData, getBookFilData } from "../../redux/action"
 import "./books.css"
 
 export const Books =()=>{
@@ -16,6 +16,7 @@ export const Books =()=>{
           // console.log(res.data)
            dispatch(getBookData(res.data))
        })
+
     },[])
 
     const handleSort=(e)=>{
@@ -29,9 +30,14 @@ export const Books =()=>{
                 dispatch(getBookData(books))
             }
             if(id =="filterCategory"){
-                 console.log(value,"a")
+               //  console.log(value,"a")
                   dispatch(getBookFilData(value))
               }
+    }
+    const bookData=(e)=>{
+        navigate(`/Books/product_details/${e.id}`)
+        // dispatch(cartData())
+        
     }
     return(
         <>
@@ -52,7 +58,7 @@ export const Books =()=>{
         </div>
         <div className="book_container">
             {books && filbooks.map((e)=>(
-                <div key={e.id} onClick={()=>navigate(`/Books/product_details/${e.id}`)}>
+                <div key={e.id} onClick={()=>bookData(e)}>
                     <img src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>

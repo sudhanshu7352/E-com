@@ -17,6 +17,8 @@ import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
+import axios from "axios";
 
 const pages = ["Clothing", "Electronics", "Appliances", "Books"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -25,18 +27,30 @@ const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const navigate =useNavigate()
-
+   const {cart} =useSelector((store)=>store.cart)
+  const [data,setData] =React.useState(0)
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
   };
-
+  // console.log({cart})
+    
+  React.useEffect(()=>{
+   showData()
+      //console.log(showData())
+  },[data])
+  const showData=()=>{
+      axios.get("http://localhost:8080/cart").then((res)=>{
+           console.log(res.data.length)
+               setData(res.data.length)
+          })
+  }
   const handleCloseNavMenu = (e) => {
     // setAnchorElNav(null);
     navigate(`/${e}`)
-    console.log(e)
+    // console.log(e)
   };
 
   const handleCloseUserMenu = () => {
@@ -146,7 +160,7 @@ const ResponsiveAppBar = () => {
             ))}
           </Box>
           <IconButton aria-label="cart" style={{marginRight:"35px",color:"white"}}>
-            <StyledBadge badgeContent={4} color="secondary">
+            <StyledBadge badgeContent={cart.length} color="secondary">
               <ShoppingCartIcon />
             </StyledBadge>
           </IconButton>

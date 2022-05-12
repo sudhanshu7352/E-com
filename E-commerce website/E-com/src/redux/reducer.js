@@ -15,7 +15,7 @@ const initState={
 }
 
 export const Reducer =(store=initState,{type,payload})=>{
-
+  //  console.log("h",store)
     switch(type){
         case GETDATA:
             return {...store,cloth:payload,filcloth:payload}

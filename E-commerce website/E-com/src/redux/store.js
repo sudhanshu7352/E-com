@@ -7,7 +7,8 @@ const reducer =combineReducers({
     cloth :Reducer,
     electronics :Reducer,
     appliances :Reducer,
-    books:Reducer
+    books:Reducer,
+    cart:Reducer
 })
 
 export const store =createStore(

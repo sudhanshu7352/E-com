@@ -1,3 +1,4 @@
+import axios from "axios"
 
 
 export const GETDATA ="GETDATA"
@@ -27,4 +28,15 @@ export const getApFilData =(data)=>({type:GET_APL_FIL_DATA,payload:data})
 export const getBookData =(data)=>({type:GET_BOOK_DATA,payload:data})
 export const getBookFilData =(data)=>({type:GET_BOOK_FIL_DATA,payload:data})
 
+export const cartData=()=>(dispatch)=>{
+   // console.log("abc")
+    axios.get("http://localhost:8080/cart").then((res)=>{
+        // console.log(res.data,"sdjh")
+        dispatch(addCart(res.data))
+    })
+    axios.get("http://localhost:8080/books").then((res)=>{
+        // console.log(res.data,"sdjh")
+        dispatch(getBookData(res.data))
+    })
+}
 
