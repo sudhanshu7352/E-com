@@ -9,6 +9,7 @@ import { Electronics } from './components/electronics/electronics'
 import { Appliances } from './components/appliances/appliances'
 import { Books } from './components/books/books'
 import { Details } from './components/product_details/product_details'
+import { Cart } from './components/cart/cart'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,7 +24,7 @@ function App() {
        <Route path='/appliances' element={<Appliances /> } />
        <Route path='/books' element={<Books /> } />
        <Route path='/:category/product_details/:id' element={<Details /> } />
-       
+       <Route path='/cart' element={<Cart />} />
      </Routes>
     </div>
   )

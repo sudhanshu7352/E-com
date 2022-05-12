@@ -1,5 +1,5 @@
 import { FilterDramaTwoTone } from "@mui/icons-material"
-import { GETDATA, GET_APL_DATA, GET_APL_FIL_DATA, GET_BOOK_DATA, GET_BOOK_FIL_DATA, GET_EL_DATA, GET_EL_FIL_DATA, GET_FIL_DATA } from "./action"
+import { ADDCART, GETDATA, GET_APL_DATA, GET_APL_FIL_DATA, GET_BOOK_DATA, GET_BOOK_FIL_DATA, GET_EL_DATA, GET_EL_FIL_DATA, GET_FIL_DATA } from "./action"
 
 
 const initState={
@@ -10,7 +10,8 @@ const initState={
      appliances:[] ,
      filappliances:[] ,
      books:[],
-     filbooks:[]
+     filbooks:[],
+     cart:[]
 }
 
 export const Reducer =(store=initState,{type,payload})=>{
@@ -31,7 +32,9 @@ export const Reducer =(store=initState,{type,payload})=>{
         case GET_BOOK_DATA:
             return {...store,books:payload,filbooks:payload}   
         case GET_BOOK_FIL_DATA:
-             return {...store,filbooks:[...filData(store.books,payload)]}           
+             return {...store,filbooks:[...filData(store.books,payload)]}       
+        case ADDCART:
+            return {...store,cart:payload}         
         default:
             return store
     }

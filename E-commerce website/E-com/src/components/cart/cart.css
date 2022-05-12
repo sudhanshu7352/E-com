@@ -1,0 +1,15 @@
+.cart_div{
+  display: flex;
+  border: 1px solid gray;
+  margin:30px;
+  gap:39px
+}
+.cart_prod{
+    flex:4;
+    border: 1px solid gray;
+}
+.price_details{
+    flex:2;
+    border: 1px solid gray;
+    height: 300px;
+}

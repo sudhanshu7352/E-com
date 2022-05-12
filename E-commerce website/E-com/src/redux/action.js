@@ -11,6 +11,8 @@ export const GET_APL_FIL_DATA ="GET_APL_FIL_DATA"
 export const GET_BOOK_DATA ="GET_BOOK_DATA"
 export const GET_BOOK_FIL_DATA ="GET_BOOK_FIL_DATA"
 
+export const ADDCART ="ADDCART"
+export const addCart =(data)=>({type:ADDCART,payload:data})
 
 
 export const getData =(data)=>({type:GETDATA,payload:data})

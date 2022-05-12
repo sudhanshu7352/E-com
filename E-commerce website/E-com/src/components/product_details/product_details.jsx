@@ -14,22 +14,22 @@ export const Details =()=>{
   useEffect(()=>{
       if(info.category =="Cloth" ){
          let temp =cloth.filter((e)=>e.id==info.id)
-         console.log(temp[0])
+       //  console.log(temp[0])
          setProd(temp[0])
       }
       if(info.category =="Electronics" ){
         let temp =electronics.filter((e)=>e.id==info.id)
-        console.log(temp[0])
+       // console.log(temp[0])
         setProd(temp[0])
      }
      if(info.category =="Appliances" ){
         let temp =appliances.filter((e)=>e.id==info.id)
-        console.log(temp[0])
+       // console.log(temp[0])
         setProd(temp[0])
      }
      if(info.category =="Books" ){
         let temp =books.filter((e)=>e.id==info.id)
-        console.log(temp[0])
+      //  console.log(temp[0])
         setProd(temp[0])
      }
   },[])
@@ -43,8 +43,8 @@ export const Details =()=>{
           </div>
           <div className="info_div">
               <h1>{prod.name}</h1>
-              <div style={{display:"flex",justifyContent:"space-around",margin:"40px"}}>
-                  <h2>{prod.category}</h2>
+              <div style={{display:"flex",justifyContent:"space-around",margin:"40px",color:"darkgray"}}>
+                  <h2>Category: {prod.category}</h2>
                   <h2>Size: {prod.size}</h2>
               </div>
               <h3>Price : ₹ {prod.price}.00</h3>
