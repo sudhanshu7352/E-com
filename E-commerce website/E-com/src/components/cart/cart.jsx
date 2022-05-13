@@ -2,6 +2,7 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
+import { useNavigate } from "react-router-dom"
 import { cartData } from "../../redux/action"
 import "./cart.css"
 export const Cart =()=>{
@@ -9,6 +10,7 @@ export const Cart =()=>{
     const [data,setData] =useState([])
     const [price,setPrice] =useState(0)
     const dispatch =useDispatch()
+    const navigate =useNavigate()
     // console.log({cart})
       
     const showData=()=>{
@@ -45,6 +47,11 @@ export const Cart =()=>{
         dispatch(cartData())
     }
     return(
+        <>
+        <div className="name_div">
+            <h2>Cart Items</h2>
+            <button onClick={()=>navigate("/checkout")} className="check_button">Checkout page </button>
+        </div>
         <div className="cart_div">
             {/* <h1>cart page</h1> */}
             <div className="cart_prod">
@@ -66,12 +73,20 @@ export const Cart =()=>{
             )
             )} 
             </div>
+            {/* <div> */}
+
             <div className="price_details">
                 <h1>Subtotal</h1>
                 <div className="price_div"> <h3>Cart total  :</h3>  <h3>₹ {price}.00</h3> </div>
                 <div className="price_div"><h3>Delivery charge :</h3>   <h3>₹ {price>0?100:0}.00</h3> </div>
                 <div className="price_total"><h3>Total :</h3> <h2>₹ {price>0?price+100:0}.00</h2></div>
             </div>
+            {/* <div>
+
+          
+            </div>
+            </div> */}
         </div>
+        </>
     )
 }

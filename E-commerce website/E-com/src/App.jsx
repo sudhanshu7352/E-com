@@ -10,6 +10,8 @@ import { Appliances } from './components/appliances/appliances'
 import { Books } from './components/books/books'
 import { Details } from './components/product_details/product_details'
 import { Cart } from './components/cart/cart'
+import { Checkout } from './components/checkout/checkout'
+import { PaymentPage } from './components/payment/payment'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +27,8 @@ function App() {
        <Route path='/books' element={<Books /> } />
        <Route path='/:category/product_details/:id' element={<Details /> } />
        <Route path='/cart' element={<Cart />} />
+       <Route path='/checkout' element={<Checkout />} />
+       <Route path="/payment" element={<PaymentPage/>} />
      </Routes>
     </div>
   )

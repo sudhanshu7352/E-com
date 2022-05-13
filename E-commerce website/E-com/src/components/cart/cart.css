@@ -57,3 +57,25 @@ line-height: 34px;
     padding: 20px;
     justify-content: space-between;
 }
+.name_div>h2{
+    font-family: cursive;
+    font-weight: 800;
+    width: 200px;
+    margin: auto;
+    color: firebrick;
+    /* margin-top: 100px; */
+   /* border: 1px solid gray; */
+}
+.check_button{
+    background: #1a76d2;
+    color: white;
+    font-weight: 300;
+    /* height: 40px; */
+    border-radius: 8px;
+    padding: 7px;
+    cursor: pointer;
+    margin-left: 80%;
+}
+.name_div{
+    margin-top:-20px ;
+}
