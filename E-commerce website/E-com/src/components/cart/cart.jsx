@@ -7,24 +7,40 @@ import "./cart.css"
 export const Cart =()=>{
     const {cart} =useSelector((store)=>store.cart)
     const [data,setData] =useState([])
+    const [price,setPrice] =useState(0)
     const dispatch =useDispatch()
     // console.log({cart})
       
     const showData=()=>{
+        let sum=0
+       // console.log("delete")
         axios.get("http://localhost:8080/cart").then((res)=>{
-            // console.log(res.data)
-                setData([...res.data])
+            setData([...res.data])
+           // console.log(res.data)
+            if(res.data.length>0){
+
+                for(let i=0;i<res.data.length;i++){
+                       // console.log(data[i].price)
+                        let x =  res.data[i].price.split(",").join("")
+                        sum += +x     
+                       // console.log(sum)  
+                         setPrice(sum)
+                  }
+                }else{
+                    setPrice(0)
+                }
             })
     }
     useEffect(()=>{
      showData()
         //console.log(showData())
+        
     },[])
     let handleDelete=(e)=>{
         axios.delete(`http://localhost:8080/cart/${e}`).then(
-            alert("removed")
+            //alert("removed")
         ).then(()=>{
-            showData()
+            showData() 
         })
         dispatch(cartData())
     }
@@ -52,9 +68,9 @@ export const Cart =()=>{
             </div>
             <div className="price_details">
                 <h1>Subtotal</h1>
-                <div>cart total:</div>
-                <div>delivery charge : ₹ 100</div>
-                <div>Total:</div>
+                <div className="price_div"> <h3>Cart total  :</h3>  <h3>₹ {price}.00</h3> </div>
+                <div className="price_div"><h3>Delivery charge :</h3>   <h3>₹ {price>0?100:0}.00</h3> </div>
+                <div className="price_total"><h3>Total :</h3> <h2>₹ {price>0?price+100:0}.00</h2></div>
             </div>
         </div>
     )

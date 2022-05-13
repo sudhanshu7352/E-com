@@ -33,3 +33,11 @@ select{
     font-family: cursive;
     padding-left: 8px;
 }
+.book_container button{
+    background: #1a76d2;
+    color: white;
+    font-weight: 300;
+    /* height: 40px; */
+    border-radius: 8px;
+    padding: 7px;
+}

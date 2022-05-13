@@ -1,6 +1,6 @@
 .cart_div{
   display: flex;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
  
   margin:30px;
   gap:39px;
@@ -8,19 +8,24 @@
 }
 .cart_prod{
     flex:4;
-    border: 1px solid red;
+    border: 2px solid gray;
+    border-radius: 15px;
 }
 .price_details{
     flex:2;
-    border: 1px solid blue;
+    border: 3px solid rgb(100, 100, 196);
     height: 300px;
+    padding: 30px;
+    font-family: cursive;
+    color: firebrick;
+    border-radius: 15px;
 }
 .ca_div{
     display: flex;
     margin-bottom: 20px;
     border-bottom: 2px solid gray;
     gap: 20px;
-    padding: 8px;
+    padding: 18px;
    
 }
 .cart_prod img{
@@ -39,4 +44,16 @@ line-height: 34px;
     padding: 3px;
     font-size: larger;
     color: white;
+}
+.price_div{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+.price_total{
+    display: flex;
+    margin: 30px;
+    border-top: 2px dotted gray;
+    padding: 20px;
+    justify-content: space-between;
 }

@@ -7,7 +7,7 @@ import axios from "axios"
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
-import { getApData, getApFilData, getData, getElData } from "../../redux/action"
+import { cartData, getApData, getApFilData, getData, getElData } from "../../redux/action"
 import "./appliances.css"
 
 export const Appliances =()=>{
@@ -36,6 +36,15 @@ export const Appliances =()=>{
                   dispatch(getApFilData(value))
               }
     }
+    const handlecart =(e)=>{
+        //  console.log(e)
+          axios.post(" http://localhost:8080/cart",e).then(()=>{
+              alert("added to cart")
+             // dispatch(addCart(prod))
+          })
+         // console.log({cart})
+          dispatch(cartData())
+      } 
     return(
         <>
         <div>
@@ -54,12 +63,17 @@ export const Appliances =()=>{
         </div>
         <div className="apl_container">
             {appliances &&filappliances.map((e)=>(
+                <div>
                 <div key={e.id} onClick={()=>navigate(`/Appliances/product_details/${e.id}`)}>
                     <img src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>
                 </div>
-                
+                <div >
+
+                    <button onClick={ ()=>handlecart(e)} >Add to cart</button>
+                    </div>
+                </div>
             ))}
         </div>
         </>

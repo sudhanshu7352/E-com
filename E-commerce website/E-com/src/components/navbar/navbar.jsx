@@ -20,7 +20,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import axios from "axios";
 
-const pages = ["Clothing", "Electronics", "Appliances", "Books"];
+const pages = ["Cloth", "Electronics", "Appliances", "Books"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const ResponsiveAppBar = () => {
@@ -40,10 +40,10 @@ const ResponsiveAppBar = () => {
   React.useEffect(()=>{
    showData()
       //console.log(showData())
-  },[data])
+  },[cart])
   const showData=()=>{
       axios.get("http://localhost:8080/cart").then((res)=>{
-           console.log(res.data.length)
+          // console.log(res.data.length)
                setData(res.data.length)
           })
   }
@@ -159,9 +159,9 @@ const ResponsiveAppBar = () => {
               </Button>
             ))}
           </Box>
-          <IconButton aria-label="cart" style={{marginRight:"35px",color:"white"}}>
-            <StyledBadge badgeContent={cart.length} color="secondary">
-              <ShoppingCartIcon />
+          <IconButton  aria-label="cart" style={{marginRight:"35px",color:"white"}}>
+            <StyledBadge badgeContent={data} color="secondary">
+              <ShoppingCartIcon onClick={()=>navigate("/cart")}/>
             </StyledBadge>
           </IconButton>
           <Box sx={{ flexGrow: 0 }}>

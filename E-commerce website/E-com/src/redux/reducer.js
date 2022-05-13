@@ -60,23 +60,7 @@ const filData=(data,value)=>{
     newData =data.filter((e)=>e.category==value)
     //console.log(newData)
     }
-    //  if(value =="low"){
-    //    newData= newData.sort((a,b)=>a.price -b.price)
-    //  }
-    //  if(value =="high"){
-    //     newData= newData.sort((a,b)=>b.price -a.price)
-    //   }  
-  // console.log(newData,"he")
+    
  return newData
 }
 
-// if(id =="priceSort" && value =="low"){
-//     filcloth.sort((a,b)=>a.price -b.price)
-//     dispatch(getData(filcloth))
-//   //  dispatch(getfilData(value))
-// }
-// if(id =="priceSort" && value =="high"){
-//     filcloth.sort((a,b)=>b.price -a.price)
-//     dispatch(getData(filcloth))
-//    // dispatch(getfilData(value))
-// }

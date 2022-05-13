@@ -8,42 +8,53 @@ import "./product_details.css"
 export const Details =()=>{
     let [prod,setProd] =useState({})
     // const [data,setData]=useState()
-    const {cloth} =useSelector((store)=>store.cloth)
-    const {electronics} =useSelector((store)=>store.electronics)
-    const {appliances} =useSelector((store)=>store.appliances)
-    const {books} =useSelector((store)=>store.books)
+    // const {cloth} =useSelector((store)=>store.cloth)
+    // const {electronics} =useSelector((store)=>store.electronics)
+    // const {appliances} =useSelector((store)=>store.appliances)
+    // const {books} =useSelector((store)=>store.books)
     const {cart} =useSelector((store)=>store.cart)
     const info =useParams()
     const navigate =useNavigate()
     const dispatch =useDispatch()
-
+   
 // console.log("prod append",prod)
 //  if(Object.keys(prod).length === 0){
-
-  useEffect(()=>{
+    useEffect(()=>{
+      console.log(info)
    // dispatch(cartData())
+   let data
    //console.log(books)
+   axios.get(` http://localhost:8080/${info.category}`).then((res)=>{
+          data=res.data
+         // console.log(data,"two")
+          if(data){
+
+            if(info.category =="Cloth" ){
+                console.log(data)
+                
+               let temp =data.filter((e)=>e.id==info.id)
+               setProd(temp[0])
+            }
+            if(info.category =="Electronics" ){
+              let temp =data.filter((e)=>e.id==info.id)
+              setProd(temp[0])
+           }
+           if(info.category =="Appliances" ){
+              let temp =data.filter((e)=>e.id==info.id)
+             // console.log(temp[0])
+              setProd(temp[0])
+           }
+           if(info.category =="Books" ){
+              let temp =data.filter((e)=>e.id==info.id)
+             // console.log(temp)
+              setProd(temp[0])
+             
+           }
+        } 
+   })
+   // console.log("one")
    
-    console.log("hello")
-      if(info.category =="Cloth" ){
-         let temp =cloth.filter((e)=>e.id==info.id)
-         setProd(temp[0])
-      }
-      if(info.category =="Electronics" ){
-        let temp =electronics.filter((e)=>e.id==info.id)
-        setProd(temp[0])
-     }
-     if(info.category =="Appliances" ){
-        let temp =appliances.filter((e)=>e.id==info.id)
-       // console.log(temp[0])
-        setProd(temp[0])
-     }
-     if(info.category =="Books" ){
-        let temp =books.filter((e)=>e.id==info.id)
-       // console.log(temp)
-        setProd(temp[0])
-       
-     }
+
   },[])
   const handlecart =()=>{
       axios.post(" http://localhost:8080/cart",prod).then(()=>{

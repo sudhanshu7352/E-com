@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
-import { getData, getfilData } from "../../redux/action"
+import { cartData, getData, getfilData } from "../../redux/action"
 import "./clothing.css"
 
 export const Clothing =()=>{
@@ -11,7 +11,7 @@ export const Clothing =()=>{
     const dispatch =useDispatch()
     const navigate =useNavigate()
     useEffect(()=>{
-       axios.get(" http://localhost:8080/clothing").then((res)=>{
+       axios.get(" http://localhost:8080/cloth").then((res)=>{
          //  console.log(res.data)
            dispatch(getData(res.data))
        })
@@ -34,6 +34,15 @@ export const Clothing =()=>{
             }
         
     }
+    const handlecart =(e)=>{
+      //  console.log(e)
+        axios.post(" http://localhost:8080/cart",e).then(()=>{
+            alert("added to cart")
+           // dispatch(addCart(prod))
+        })
+       // console.log({cart})
+        dispatch(cartData())
+    } 
     return(
         <>
           <div>
@@ -50,11 +59,19 @@ export const Clothing =()=>{
         </div>
         <div className="container">
             {cloth && filcloth.map((e)=>(
+                <div>
                 <div key={e.id} onClick={()=>navigate(`/Cloth/product_details/${e.id}`)}>
                     <img src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>
+                   
+                 </div>
+                   <div >
+
+                    <button onClick={ ()=>handlecart(e)} >Add to cart</button>
+                    </div>
                 </div>
+               
                 
             ))}
         </div>

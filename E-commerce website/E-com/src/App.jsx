@@ -19,7 +19,7 @@ function App() {
       <ResponsiveAppBar />
      <Routes>
        <Route path='/' element={<Home /> } />
-       <Route path='/Clothing' element={<Clothing /> } />
+       <Route path='/Cloth' element={<Clothing /> } />
        <Route path='/Electronics' element={<Electronics /> } />
        <Route path='/appliances' element={<Appliances /> } />
        <Route path='/books' element={<Books /> } />
