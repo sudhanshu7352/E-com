@@ -357,23 +357,6 @@
   ],
   "cart": [
     {
-      "image": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/445292/item/ingoods_56_445292.jpg?width=1008&mpolicy=quality_75",
-      "category": "WOMEN",
-      "size": "S-3XL",
-      "name": "WOMEN  Denim Leggings Trousers",
-      "desc": "WOMEN Extra Stretch High Rise Denim Leggings Trousers",
-      "price": "1990",
-      "id": 203
-    },
-    {
-      "name": "ASUS TUF Gaming F15 (2021) Core i5 11th Gen",
-      "image": "https://rukminim1.flixcart.com/image/416/416/kpodocw0/computer/9/s/7/na-gaming-laptop-asus-original-imag3v4hsgz62qgw.jpeg?q=70",
-      "price": "1,04,999",
-      "category": "laptop",
-      "desc": "15.6 Inch Full HD LED Backlit, Anti-Glare IPS, Adaptive-Sync Display (144Hz Refresh Rate, 250 nits Brightness, 1000:1 Contrast, 45% NTSC Color Gamut, 62.5% SRGB, 16:9 Aspect Ratio) Light Laptop without Optical Disk Drive",
-      "id": 403
-    },
-    {
       "name": "Mi 5X 138.8 cm (55 inch) Ultra HD (4K) LED Smart Android TV",
       "image": "https://rukminim1.flixcart.com/image/416/416/ksoz53k0/television/f/y/6/l55m6-es-mi-original-imag67749wqtwgyp.jpeg?q=70",
       "price": "46,999",
@@ -393,6 +376,23 @@
       "category": "mythology",
       "isbnNumber": 1234567,
       "id": 9
+    },
+    {
+      "image": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/446217/item/ingoods_00_446217.jpg?width=1008&impolicy=quality_75",
+      "category": "MEN",
+      "size": "S-XXL",
+      "name": "MEN Long Sleeve Sweatshirt",
+      "desc": "MEN Monochrome Mickey Long Sleeve Sweatshirt",
+      "price": "1990",
+      "id": 102
+    },
+    {
+      "name": "IFB 6 kg 5 Star Aqua Energie, Laundry Add, Tub Clean, Fully Automatic Front ",
+      "image": "https://rukminim1.flixcart.com/image/416/416/krz97rk0/washing-machine-new/g/2/4/diva-aqua-vx-ifb-original-imag5ngqvnsgwxhy.jpeg?q=70",
+      "price": "21,999",
+      "category": "washing machine",
+      "desc": "Fully Automatic Front Load Washing Machines have Great Wash Quality with very less running cost 800 rpm : Higher the spin speed, lower the drying time  Number of wash programs - 8 : With higher wash programs-Wash a variety of fabrics",
+      "id": 601
     }
   ]
 }
