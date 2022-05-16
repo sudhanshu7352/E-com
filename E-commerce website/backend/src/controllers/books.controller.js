@@ -1,6 +1,6 @@
 const express =require("express")
 
-const Book =require("../model/cloth.model");
+const Book =require("../model/books.model");
 
 const router =express.Router()
 

@@ -210,7 +210,8 @@
       "category": "mystery",
       "isbnNumber": 1234567,
       "id": 1
-    },
+,
+"size":"20 cm"    },
     {
       "name": "The twelfth child",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg9eiPUd6cE7xP6r-o4FXy5zPMqLW1OlgoxA&usqp=CAU",
@@ -223,7 +224,8 @@
       "category": "mystery",
       "isbnNumber": 1234567,
       "id": 2
-    },
+,
+"size":"20 cm"    },
     {
       "name": "bermuda triangle",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ22I5aJUSoRNgsazfpPWBuZeVqL5D_r85KQ&usqp=CAU",
@@ -236,7 +238,8 @@
       "category": "mystery",
       "isbnNumber": 1234567,
       "id": 3
-    },
+,
+"size":"20 cm"    },
     {
       "name": "walk the wire",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH94XDPMDdJJUuArmeF8a-apzIKcjz-IWHIg&usqp=CAU",
@@ -249,7 +252,8 @@
       "category": "technology",
       "isbnNumber": 1234567,
       "id": 4
-    },
+,
+"size":"20 cm"    },
     {
       "name": "secret corps",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaGHlOfRRxlYhGJ6KHcKuNxYQMZhnyn9AUA&usqp=CAU",
@@ -262,7 +266,8 @@
       "category": "technology",
       "isbnNumber": 1234567,
       "id": 5
-    },
+,
+"size":"20 cm"    },
     {
       "name": "unleaash the dragon",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3S-5Z0zwKCY6jKolW5naQojapyk68yHFGHw&usqp=CAU",
@@ -275,7 +280,8 @@
       "category": "technology",
       "isbnNumber": 1234567,
       "id": 6
-    },
+,
+"size":"20 cm"    },
     {
       "name": "seven endless forests",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIBw75iUts6UaMCMbaBBOu4uR72HLjVoZC_g&usqp=CAU",
@@ -288,7 +294,8 @@
       "category": "mythology",
       "isbnNumber": 1234567,
       "id": 7
-    },
+,
+"size":"20 cm"    },
     {
       "name": "It's Okay",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuFOOUUXDAH6Duoh3fEYlDLS9Obh5uVLxxYA&usqp=CAU",
@@ -301,7 +308,8 @@
       "category": "mythology",
       "isbnNumber": 1234567,
       "id": 8
-    },
+,
+"size":"20 cm"    },
     {
       "name": "secret corps",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaGHlOfRRxlYhGJ6KHcKuNxYQMZhnyn9AUA&usqp=CAU",
@@ -314,7 +322,8 @@
       "category": "mythology",
       "isbnNumber": 1234567,
       "id": 9
-    },
+,
+"size":"20 cm"    },
     {
       "name": "A Million to one",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsfxrcUtlaLqSTTpA7N9cWKIopvRNtXngM2A&usqp=CAU",
@@ -326,7 +335,8 @@
       "price": "4500",
       "category": "history",
       "isbnNumber": 1234567,
-      "id": 10
+      "id": 10,
+      "size":"20 cm"
     },
     {
       "name": "Attitude Is Everything ",
@@ -339,7 +349,8 @@
       "price": "790",
       "category": "history",
       "isbnNumber": 1234567,
-      "id": 11
+      "id": 11,
+      "size":"20 cm"
     },
     {
       "name": "The Best",
@@ -352,7 +363,8 @@
       "price": "3299",
       "category": "history",
       "isbnNumber": 1234567,
-      "id": 12
+      "id": 12,
+      "size":"20 cm"
     }
   ],
   "cart": [

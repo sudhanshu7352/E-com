@@ -1,6 +1,6 @@
 const express =require("express")
 
-const Electronic =require("../model/cloth.model");
+const Electronic =require("../model/electronics.model");
 
 const router =express.Router()
 
