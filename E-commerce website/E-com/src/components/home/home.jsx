@@ -10,6 +10,7 @@ export const Home =()=>{
             {/* <h1>home</h1> */}
             <div className="prod_div">
                 <h1>Clothing Products</h1>
+        <div>products div</div>
             </div>
             <div  className="prod_div">
                 <h1>Electronics Products</h1>
