@@ -209,9 +209,9 @@
       "price": "2234",
       "category": "mystery",
       "isbnNumber": 1234567,
-      "id": 1
-,
-"size":"20 cm"    },
+      "id": 1,
+      "size": "20 cm"
+    },
     {
       "name": "The twelfth child",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg9eiPUd6cE7xP6r-o4FXy5zPMqLW1OlgoxA&usqp=CAU",
@@ -223,9 +223,9 @@
       "price": "999",
       "category": "mystery",
       "isbnNumber": 1234567,
-      "id": 2
-,
-"size":"20 cm"    },
+      "id": 2,
+      "size": "20 cm"
+    },
     {
       "name": "bermuda triangle",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ22I5aJUSoRNgsazfpPWBuZeVqL5D_r85KQ&usqp=CAU",
@@ -237,9 +237,9 @@
       "price": "6543",
       "category": "mystery",
       "isbnNumber": 1234567,
-      "id": 3
-,
-"size":"20 cm"    },
+      "id": 3,
+      "size": "20 cm"
+    },
     {
       "name": "walk the wire",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH94XDPMDdJJUuArmeF8a-apzIKcjz-IWHIg&usqp=CAU",
@@ -251,9 +251,9 @@
       "price": "5246",
       "category": "technology",
       "isbnNumber": 1234567,
-      "id": 4
-,
-"size":"20 cm"    },
+      "id": 4,
+      "size": "20 cm"
+    },
     {
       "name": "secret corps",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaGHlOfRRxlYhGJ6KHcKuNxYQMZhnyn9AUA&usqp=CAU",
@@ -265,9 +265,9 @@
       "price": "2000",
       "category": "technology",
       "isbnNumber": 1234567,
-      "id": 5
-,
-"size":"20 cm"    },
+      "id": 5,
+      "size": "20 cm"
+    },
     {
       "name": "unleaash the dragon",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3S-5Z0zwKCY6jKolW5naQojapyk68yHFGHw&usqp=CAU",
@@ -279,9 +279,9 @@
       "price": "3566",
       "category": "technology",
       "isbnNumber": 1234567,
-      "id": 6
-,
-"size":"20 cm"    },
+      "id": 6,
+      "size": "20 cm"
+    },
     {
       "name": "seven endless forests",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIBw75iUts6UaMCMbaBBOu4uR72HLjVoZC_g&usqp=CAU",
@@ -293,9 +293,9 @@
       "price": "1290",
       "category": "mythology",
       "isbnNumber": 1234567,
-      "id": 7
-,
-"size":"20 cm"    },
+      "id": 7,
+      "size": "20 cm"
+    },
     {
       "name": "It's Okay",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuFOOUUXDAH6Duoh3fEYlDLS9Obh5uVLxxYA&usqp=CAU",
@@ -307,9 +307,9 @@
       "price": "1290",
       "category": "mythology",
       "isbnNumber": 1234567,
-      "id": 8
-,
-"size":"20 cm"    },
+      "id": 8,
+      "size": "20 cm"
+    },
     {
       "name": "secret corps",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaGHlOfRRxlYhGJ6KHcKuNxYQMZhnyn9AUA&usqp=CAU",
@@ -321,9 +321,9 @@
       "price": "1200",
       "category": "mythology",
       "isbnNumber": 1234567,
-      "id": 9
-,
-"size":"20 cm"    },
+      "id": 9,
+      "size": "20 cm"
+    },
     {
       "name": "A Million to one",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsfxrcUtlaLqSTTpA7N9cWKIopvRNtXngM2A&usqp=CAU",
@@ -336,7 +336,7 @@
       "category": "history",
       "isbnNumber": 1234567,
       "id": 10,
-      "size":"20 cm"
+      "size": "20 cm"
     },
     {
       "name": "Attitude Is Everything ",
@@ -350,7 +350,7 @@
       "category": "history",
       "isbnNumber": 1234567,
       "id": 11,
-      "size":"20 cm"
+      "size": "20 cm"
     },
     {
       "name": "The Best",
@@ -364,30 +364,26 @@
       "category": "history",
       "isbnNumber": 1234567,
       "id": 12,
-      "size":"20 cm"
+      "size": "20 cm"
     }
   ],
   "cart": [
     {
-      "name": "Mi 5X 138.8 cm (55 inch) Ultra HD (4K) LED Smart Android TV",
-      "image": "https://rukminim1.flixcart.com/image/416/416/ksoz53k0/television/f/y/6/l55m6-es-mi-original-imag67749wqtwgyp.jpeg?q=70",
-      "price": "46,999",
-      "category": "Television",
-      "desc": "Supported Apps: Netflix|Prime Video|Disney+Hotstar|Youtube  Operating System: Android (Google Assistant & Chromecast in-built) Resolution: Ultra HD (4K) 3840 x 2160 Pixels",
-      "id": 502
+      "name": "realme GT Neo 3 (Sprint White, 128 GB)  (8 GB RAM)",
+      "image": "https://rukminim1.flixcart.com/image/416/416/l2hwwi80/mobile/n/x/p/-original-imagdttkn3x3ufhm.jpeg?q=70",
+      "price": "34,999",
+      "category": "mobile",
+      "desc": "8 GB RAM | 128 GB ROM, 17.02 cm (6.7 inch) Full HD+ Display ,50MP + 8MP + 2MP | 16MP Front Camera",
+      "id": 302
     },
     {
-      "name": "secret corps",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvaGHlOfRRxlYhGJ6KHcKuNxYQMZhnyn9AUA&usqp=CAU",
-      "desc": "Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
-      "reviews": [
-        "multiple reviews here"
-      ],
-      "author": "Jeff Keller",
-      "price": "1200",
-      "category": "mythology",
-      "isbnNumber": 1234567,
-      "id": 9
+      "image": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/448383/item/ingoods_65_448383.jpg?width=1008&impolicy=quality_75",
+      "category": "MEN",
+      "size": "S-3XL",
+      "name": "MEN Collar Long Sleeve Shirt",
+      "desc": "MEN Hickory Oversized Stand Collar Long Sleeve Shirt",
+      "price": "490",
+      "id": 103
     },
     {
       "image": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/446217/item/ingoods_00_446217.jpg?width=1008&impolicy=quality_75",
@@ -399,12 +395,13 @@
       "id": 102
     },
     {
-      "name": "IFB 6 kg 5 Star Aqua Energie, Laundry Add, Tub Clean, Fully Automatic Front ",
-      "image": "https://rukminim1.flixcart.com/image/416/416/krz97rk0/washing-machine-new/g/2/4/diva-aqua-vx-ifb-original-imag5ngqvnsgwxhy.jpeg?q=70",
-      "price": "21,999",
-      "category": "washing machine",
-      "desc": "Fully Automatic Front Load Washing Machines have Great Wash Quality with very less running cost 800 rpm : Higher the spin speed, lower the drying time  Number of wash programs - 8 : With higher wash programs-Wash a variety of fabrics",
-      "id": 601
+      "image": "https://image.uniqlo.com/UQ/ST3/in/imagesgoods/445041/item/ingoods_30_445041.jpg?width=1008&impolicy=quality_75",
+      "category": "MEN",
+      "size": "S-3XL",
+      "name": "MEN Coach Jacket",
+      "desc": "Exclusive Size Online Only,New Arrivals",
+      "price": "3990",
+      "id": 101
     }
   ]
 }

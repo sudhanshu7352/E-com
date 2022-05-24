@@ -2,6 +2,51 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 96%;
     margin: auto;
-    height: 300px;
+    height: 470px;
     margin-top: 29px;
+}
+
+.view_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 30px;
+    /* border-bottom:1px solid gray; */
+}
+.view_div>button,.products button{
+    background: #1a76d2;
+    color: white;
+    font-weight: 300;
+    /* height: 40px; */
+    border-radius: 8px;
+    padding: 5px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.view_div>button:hover,.products button:hover{
+    cursor: pointer;
+    background-color: #3683cf;
+}
+.products{
+    display: grid;
+    /* margin: 30px; */
+    margin-top: -20px;
+    border-top: 1px solid rgb(221, 217, 217);
+    grid-template-columns: repeat(3,28%);
+    padding-left: 35px;
+    padding-top:10px ;
+    gap: 50px;
+    width: 98%;
+}
+.products>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    font-family: cursive;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(43, 39, 39);
+    text-align: left;
+    /* border-radius: 5px; */
+}
+.products img{
+    height: 250px ;
 }
