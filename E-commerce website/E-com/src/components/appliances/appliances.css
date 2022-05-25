@@ -16,10 +16,10 @@
     text-align: left;
     /* border-radius: 5px; */
 }
-.apl_container>div>img{
+.apl_container img{
     /* height: 330px; */
      margin-left: 20%;
-    width: 63%;
+    width: 65%;
 }
 .apl_container>div>h4{
     color: rgb(101, 139, 209);

@@ -16,7 +16,7 @@ export const Appliances =()=>{
     const dispatch =useDispatch()
     const navigate =useNavigate()
     useEffect(()=>{
-       axios.get(" http://localhost:8080/appliances").then((res)=>{
+       axios.get("https://e-mart-7352.herokuapp.com/appliances").then((res)=>{
           // console.log(res.data)
            dispatch(getApData(res.data))
        })
@@ -38,7 +38,7 @@ export const Appliances =()=>{
     }
     const handlecart =(e)=>{
         //  console.log(e)
-          axios.post(" http://localhost:8080/cart",e).then(()=>{
+          axios.post("https://e-mart-7352.herokuapp.com/cart",e).then(()=>{
               alert("added to cart")
              // dispatch(addCart(prod))
           })

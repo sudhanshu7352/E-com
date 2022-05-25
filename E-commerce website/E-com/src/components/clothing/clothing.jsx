@@ -11,7 +11,7 @@ export const Clothing =()=>{
     const dispatch =useDispatch()
     const navigate =useNavigate()
     useEffect(()=>{
-       axios.get(" http://localhost:8080/cloth").then((res)=>{
+       axios.get("https://e-mart-7352.herokuapp.com/cloth").then((res)=>{
          //  console.log(res.data)
            dispatch(getData(res.data))
        })
@@ -36,7 +36,7 @@ export const Clothing =()=>{
     }
     const handlecart =(e)=>{
       //  console.log(e)
-        axios.post(" http://localhost:8080/cart",e).then(()=>{
+        axios.post(" https://e-mart-7352.herokuapp.com/cart",e).then(()=>{
             alert("added to cart")
            // dispatch(addCart(prod))
         })

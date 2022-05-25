@@ -16,7 +16,7 @@ export const Cart =()=>{
     const showData=()=>{
         let sum=0
        // console.log("delete")
-        axios.get("http://localhost:8080/cart").then((res)=>{
+        axios.get("https://e-mart-7352.herokuapp.com/cart").then((res)=>{
             setData([...res.data])
            // console.log(res.data)
             if(res.data.length>0){
@@ -39,7 +39,7 @@ export const Cart =()=>{
         
     },[])
     let handleDelete=(e)=>{
-        axios.delete(`http://localhost:8080/cart/${e}`).then(
+        axios.delete(`https://e-mart-7352.herokuapp.com/cart/${e}`).then(
             //alert("removed")
         ).then(()=>{
             showData() 
@@ -65,7 +65,7 @@ export const Cart =()=>{
                  <h3>Price : ₹ {e.price}</h3>
                  <div style={{display:"flex",justifyContent:"space-evenly",marginTop:"40px"}}>
                  <h3>Quantity :1</h3>
-                 <button onClick={()=>handleDelete(e.id)}>Remove</button>
+                 <button onClick={()=>handleDelete(e._id)}>Remove</button>
                  </div>
                  
               </div>

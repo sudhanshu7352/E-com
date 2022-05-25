@@ -402,6 +402,20 @@
       "desc": "Exclusive Size Online Only,New Arrivals",
       "price": "3990",
       "id": 101
+    },
+    {
+      "name": "The twelfth child",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg9eiPUd6cE7xP6r-o4FXy5zPMqLW1OlgoxA&usqp=CAU",
+      "desc": "Attitude decides our altitude and when we change your attitude, we change your life. Attitude is Everything: Change Your Attitude...Change Your Life is a success manual that gives plans for us to take control of our lives and unleash the untapped potential. This book consists of 12 Lessons that cover a wide range of topics like paving one’s path, making commitments to oneself, confronting fears, etc.",
+      "reviews": [
+        "multiple reviews here"
+      ],
+      "author": "Murphy Joseph",
+      "price": "999",
+      "category": "mystery",
+      "isbnNumber": 1234567,
+      "id": 2,
+      "size": "20 cm"
     }
   ]
 }

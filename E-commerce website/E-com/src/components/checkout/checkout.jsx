@@ -9,7 +9,7 @@ export const Checkout=()=>{
     const showData=()=>{
         let sum=0
        // console.log("delete")
-        axios.get("http://localhost:8080/cart").then((res)=>{
+        axios.get("https://e-mart-7352.herokuapp.com/cart").then((res)=>{
             // setData([...res.data])
            // console.log(res.data)
             if(res.data.length>0){

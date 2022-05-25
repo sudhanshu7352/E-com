@@ -16,8 +16,7 @@
 .view_div>button,.products button{
     background: #1a76d2;
     color: white;
-    font-weight: 300;
-    /* height: 40px; */
+    font-size: larger;
     border-radius: 8px;
     padding: 5px;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

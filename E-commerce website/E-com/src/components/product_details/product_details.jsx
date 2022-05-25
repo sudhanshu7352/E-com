@@ -76,7 +76,7 @@ export const Details =()=>{
           </div>
           <div className="info_div">
               <h1>{prod.name}</h1>
-              <div style={{display:"flex",justifyContent:"space-around",margin:"40px",color:"darkgray"}}>
+              <div style={{display:"flex",justifyContent:"space-between",margin:"20px",color:"darkgray"}}>
                   <h2>Category: {prod.category}</h2>
                   <h2>Size: {prod.size}</h2>
               </div>

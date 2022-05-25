@@ -12,7 +12,7 @@ export const Books =()=>{
     const navigate =useNavigate()
     const dispatch =useDispatch()
     useEffect(()=>{
-       axios.get(" http://localhost:8080/books").then((res)=>{
+       axios.get(" https://e-mart-7352.herokuapp.com/books").then((res)=>{
           // console.log(res.data)
            dispatch(getBookData(res.data))
        })
@@ -41,7 +41,7 @@ export const Books =()=>{
     }
     const handlecart =(e)=>{
         //  console.log(e)
-          axios.post(" http://localhost:8080/cart",e).then(()=>{
+          axios.post(" https://e-mart-7352.herokuapp.com/cart",e).then(()=>{
               alert("added to cart")
              // dispatch(addCart(prod))
           })
@@ -69,7 +69,7 @@ export const Books =()=>{
             {books && filbooks.map((e)=>(
             <div>
                 <div key={e.id} onClick={()=>bookData(e)}>
-                    <img src={e.image} />
+                    <img style={{width:"74%",marginLeft:"4%"}} src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>
                 </div>
