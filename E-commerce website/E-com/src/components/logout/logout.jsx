@@ -1,7 +1,7 @@
 import SportsMotorsportsIcon from '@mui/icons-material/SportsMotorsports';
 import PersonIcon from '@mui/icons-material/Person';
 import LogoutIcon from '@mui/icons-material/Logout';
-import {logoutRequest} from "../../Redux/Login/action"
+import {logoutRequest} from "../../redux/login/action"
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import "./logout.css"
