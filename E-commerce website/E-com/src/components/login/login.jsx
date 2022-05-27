@@ -39,7 +39,7 @@ export const Login = () => {
     // login flow complete, connect redux, isAuth and token store remaining
 
     axios
-      .post("https://royal-brothers.herokuapp.com/login", userDetails)
+      .post("https://e-mart-7352.herokuapp.com/login", userDetails)
       .then((res) => {
         console.log(res.data);
         alert("Login Successful");
@@ -58,7 +58,7 @@ export const Login = () => {
         //   return
         // }
         
-        navigate("/product");
+        navigate("/cart");
       })
       .catch((err) => {
         console.log(err);
