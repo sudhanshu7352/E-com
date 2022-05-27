@@ -52,7 +52,7 @@ export const SignUp = () => {
 
   return (
     <div className="login">
-      <p className="head">Rent . Ride . Explore</p>
+      <p className="head">Search . Explore . Buy</p>
 
       <div className="box">
         <div className="flex1">
@@ -72,7 +72,7 @@ export const SignUp = () => {
           name="name"
           onChange={handleChange}
           type="text"
-          placeholder="Name as per Aadhaar / Passport"
+          placeholder="User name"
         />
         <input
           className="inp"

@@ -16,9 +16,10 @@ import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import axios from "axios";
+import { Logout } from "../logout/logout";
 
 const pages = ["Cloth", "Electronics", "Appliances", "Books"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -29,6 +30,8 @@ const ResponsiveAppBar = () => {
   const navigate =useNavigate()
    const {cart} =useSelector((store)=>store.cart)
   const [data,setData] =React.useState(0)
+  const  isLogin  = useSelector((store) => store.isLogin);
+  //  console.log(isLogin)
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
@@ -164,7 +167,42 @@ const ResponsiveAppBar = () => {
               <ShoppingCartIcon onClick={()=>navigate("/cart")}/>
             </StyledBadge>
           </IconButton>
-          <Box sx={{ flexGrow: 0 }}>
+          <p
+            style={{ color: "white", marginLeft: "20px", marginRight: "25px" }}
+          >
+            |
+          </p>
+          {isLogin.data ? (
+            <Logout name={isLogin.data.user.name}/>
+          ) : (
+            <>
+              <Link
+                to="/login"
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  fontSize: "14px",
+                  marginRight: "15px",
+                }}
+              >
+                Login
+              </Link>
+              <Link
+                to="/register"
+                style={{
+                  textDecoration: "none",
+                  color: "black",
+                  backgroundColor: "#fed250",
+                  padding: "10px",
+                  fontSize: "14px",
+                  borderRadius: "5px",
+                }}
+              >
+                Sign up
+              </Link>
+            </>
+          )}
+          {/* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="" />
@@ -192,7 +230,7 @@ const ResponsiveAppBar = () => {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

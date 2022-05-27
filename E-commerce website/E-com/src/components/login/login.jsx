@@ -5,7 +5,7 @@ import {
   loginRequest,
   loginSuccess,
   loginFailure,
-} from "../../Redux/Login/action";
+} from "../../redux/login/action";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
@@ -73,7 +73,7 @@ export const Login = () => {
 
   return (
     <div className="login">
-      <p className="head">Rent . Ride . Explore</p>
+      <p className="head"> Explore . Search . Buy </p>
 
       <div className="box">
         <div className="flex">

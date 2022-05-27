@@ -12,6 +12,8 @@ import { Details } from './components/product_details/product_details'
 import { Cart } from './components/cart/cart'
 import { Checkout } from './components/checkout/checkout'
 import { PaymentPage } from './components/payment/payment'
+import { Login } from './components/login/login'
+import { SignUp } from './components/signup/signup'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +31,8 @@ function App() {
        <Route path='/cart' element={<Cart />} />
        <Route path='/checkout' element={<Checkout />} />
        <Route path="/payment" element={<PaymentPage/>} />
+       <Route path="/login" element={<Login/>} />
+       <Route path="/register" element={<SignUp/>} />
      </Routes>
     </div>
   )
