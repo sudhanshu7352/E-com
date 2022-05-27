@@ -17,35 +17,36 @@ export const Details =()=>{
     const navigate =useNavigate()
     const dispatch =useDispatch()
    
-// console.log("prod append",prod)
-//  if(Object.keys(prod).length === 0){
+
     useEffect(()=>{
       console.log(info)
    // dispatch(cartData())
    let data
-   //console.log(books)
-   axios.get(` http://localhost:8080/${info.category}`).then((res)=>{
+   
+   axios.get(` https://e-mart-7352.herokuapp.com/${info.category}`).then((res)=>{
           data=res.data
-         // console.log(data,"two")
+        //   console.log(res.data ,"two")
+        //   setProd(res.data)
           if(data){
 
             if(info.category =="Cloth" ){
                 console.log(data)
                 
-               let temp =data.filter((e)=>e.id==info.id)
+               let temp =data.filter((e)=>e._id==info.id)
+               console.log(temp)
                setProd(temp[0])
             }
             if(info.category =="Electronics" ){
-              let temp =data.filter((e)=>e.id==info.id)
+              let temp =data.filter((e)=>e._id==info.id)
               setProd(temp[0])
            }
            if(info.category =="Appliances" ){
-              let temp =data.filter((e)=>e.id==info.id)
+              let temp =data.filter((e)=>e._id==info.id)
              // console.log(temp[0])
               setProd(temp[0])
            }
            if(info.category =="Books" ){
-              let temp =data.filter((e)=>e.id==info.id)
+              let temp =data.filter((e)=>e._id==info.id)
              // console.log(temp)
               setProd(temp[0])
              
@@ -56,8 +57,9 @@ export const Details =()=>{
    
 
   },[])
+
   const handlecart =()=>{
-      axios.post(" http://localhost:8080/cart",prod).then(()=>{
+      axios.post(" https://e-mart-7352.herokuapp.com/cart",prod).then(()=>{
           alert("added to cart")
          // dispatch(addCart(prod))
       })

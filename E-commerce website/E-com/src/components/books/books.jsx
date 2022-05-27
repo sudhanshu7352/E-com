@@ -35,7 +35,7 @@ export const Books =()=>{
               }
     }
     const bookData=(e)=>{
-        navigate(`/Books/product_details/${e.id}`)
+        navigate(`/Books/product_details/${e._id}`)
         // dispatch(cartData())
         
     }
@@ -68,7 +68,7 @@ export const Books =()=>{
         <div className="book_container">
             {books && filbooks.map((e)=>(
             <div>
-                <div key={e.id} onClick={()=>bookData(e)}>
+                <div key={e._id} onClick={()=>bookData(e)}>
                     <img style={{width:"74%",marginLeft:"4%"}} src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>

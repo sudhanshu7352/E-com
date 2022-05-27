@@ -64,7 +64,7 @@ export const Appliances =()=>{
         <div className="apl_container">
             {appliances &&filappliances.map((e)=>(
                 <div>
-                <div key={e.id} onClick={()=>navigate(`/Appliances/product_details/${e.id}`)}>
+                <div key={e._id} onClick={()=>navigate(`/Appliances/product_details/${e._id}`)}>
                     <img src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>

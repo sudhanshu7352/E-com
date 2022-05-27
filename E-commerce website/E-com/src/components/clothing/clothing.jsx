@@ -60,7 +60,7 @@ export const Clothing =()=>{
         <div className="container">
             {cloth && filcloth.map((e)=>(
                 <div>
-                <div key={e.id} onClick={()=>navigate(`/Cloth/product_details/${e.id}`)}>
+                <div key={e._id} onClick={()=>navigate(`/Cloth/product_details/${e._id}`)}>
                     <img src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>

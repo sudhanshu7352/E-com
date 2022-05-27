@@ -59,7 +59,7 @@ export const Electronics =()=>{
         <div className="el_container">
             {electronics&& filelectronics.map((e)=>(
                 <div>
-                <div key={e.id} onClick={()=>navigate(`/Electronics/product_details/${e.id}`)}>
+                <div key={e._id} onClick={()=>navigate(`/Electronics/product_details/${e._id}`)}>
                     <img src={e.image} />
                     <h3>{e.name}</h3>
                     <h4>₹ {e.price}.00</h4>

@@ -74,8 +74,8 @@ export const Home = () => {
           {cloth.map((e) => (
             <div>
               <div
-                key={e.id}
-                onClick={() => navigate(`/Cloth/product_details/${e.id}`)}
+                key={e._id}
+                onClick={() => navigate(`/Cloth/product_details/${e._id}`)}
               >
                 <img src={e.image} />
                 <h3>{e.name}</h3>
@@ -99,8 +99,8 @@ export const Home = () => {
           {electronic.map((e) => (
             <div>
               <div
-                key={e.id}
-                onClick={() => navigate(`/Electronics/product_details/${e.id}`)}
+                key={e._id}
+                onClick={() => navigate(`/Electronics/product_details/${e._id}`)}
               >
                 <img style={{width:"44%",marginLeft:"24%"}} src={e.image} />
                 <h3>{e.name}</h3>
@@ -123,8 +123,8 @@ export const Home = () => {
           {appliance.map((e) => (
             <div>
               <div
-                key={e.id}
-                onClick={() => navigate(`/Appliances/product_details/${e.id}`)}
+                key={e._id}
+                onClick={() => navigate(`/Appliances/product_details/${e._id}`)}
               >
                 <img style={{width:"84%",marginLeft:"4%"}} src={e.image} />
                 <h3>{e.name}</h3>
@@ -147,8 +147,8 @@ export const Home = () => {
           {book.map((e) => (
             <div>
               <div
-                key={e.id}
-                onClick={() => navigate(`/Books/product_details/${e.id}`)}
+                key={e._id}
+                onClick={() => navigate(`/Books/product_details/${e._id}`)}
               >
                 <img style={{width:"84%",marginLeft:"4%"}} src={e.image} />
                 <h3>{e.name}</h3>
