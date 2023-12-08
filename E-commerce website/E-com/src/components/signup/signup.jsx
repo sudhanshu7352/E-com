@@ -28,7 +28,7 @@ export const SignUp = () => {
     // register flow complete, connect redux store remaining
 
     axios
-      .post("https://e-mart-7352.herokuapp.com/register", userDetails)
+      .post("https://hilarious-erin-shoulder-pads.cyclic.app/register", userDetails)
       .then((res) => {
         console.log(res.data);
         alert("Register Successful");
