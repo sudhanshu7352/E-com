@@ -16,7 +16,7 @@ export const Cart =()=>{
     const showData=()=>{
         let sum=0
        // console.log("delete")
-        axios.get("https://e-mart-7352.herokuapp.com/cart").then((res)=>{
+        axios.get("https://hilarious-erin-shoulder-pads.cyclic.app/cart").then((res)=>{
             setData([...res.data])
            // console.log(res.data)
             if(res.data.length>0){
@@ -39,7 +39,7 @@ export const Cart =()=>{
         
     },[])
     let handleDelete=(e)=>{
-        axios.delete(`https://e-mart-7352.herokuapp.com/cart/${e}`).then(
+        axios.delete(`https://hilarious-erin-shoulder-pads.cyclic.app/cart/${e}`).then(
             //alert("removed")
         ).then(()=>{
             showData() 
